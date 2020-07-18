@@ -13,6 +13,35 @@
 		3F3033E124C2F82E0020465D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033DF24C2F82E0020465D /* Main.storyboard */; };
 		3F3033E324C2F8300020465D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033E224C2F8300020465D /* Assets.xcassets */; };
 		3F3033E624C2F8300020465D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033E424C2F8300020465D /* LaunchScreen.storyboard */; };
+		3F30340C24C2FA640020465D /* ThreeLineLegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033EE24C2FA640020465D /* ThreeLineLegendViewController.swift */; };
+		3F30340D24C2FA640020465D /* CustomFontFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033EF24C2FA640020465D /* CustomFontFamilyViewController.swift */; };
+		3F30340E24C2FA640020465D /* VolumeStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F024C2FA640020465D /* VolumeStudyViewController.swift */; };
+		3F30340F24C2FA640020465D /* RealtimeEmulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F124C2FA640020465D /* RealtimeEmulationViewController.swift */; };
+		3F30341024C2FA640020465D /* CustomLocaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F224C2FA640020465D /* CustomLocaleViewController.swift */; };
+		3F30341124C2FA640020465D /* LogarithmicPriceScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F324C2FA640020465D /* LogarithmicPriceScaleViewController.swift */; };
+		3F30341224C2FA640020465D /* AddAndRemovePriceLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F424C2FA640020465D /* AddAndRemovePriceLineViewController.swift */; };
+		3F30341324C2FA640020465D /* MagnifierTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F524C2FA640020465D /* MagnifierTooltipViewController.swift */; };
+		3F30341424C2FA640020465D /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F624C2FA640020465D /* LegendViewController.swift */; };
+		3F30341524C2FA640020465D /* CustomPriceFormatterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F724C2FA640020465D /* CustomPriceFormatterViewController.swift */; };
+		3F30341624C2FA640020465D /* NoTimeScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F824C2FA640020465D /* NoTimeScaleViewController.swift */; };
+		3F30341724C2FA640020465D /* TrackingTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033F924C2FA640020465D /* TrackingTooltipViewController.swift */; };
+		3F30341824C2FA640020465D /* RangeSwitcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FA24C2FA640020465D /* RangeSwitcherViewController.swift */; };
+		3F30341924C2FA640020465D /* CustomThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FB24C2FA640020465D /* CustomThemesViewController.swift */; };
+		3F30341A24C2FA640020465D /* CustomWatermarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FC24C2FA640020465D /* CustomWatermarkViewController.swift */; };
+		3F30341B24C2FA640020465D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FD24C2FA640020465D /* TableViewController.swift */; };
+		3F30341C24C2FA640020465D /* IntradayDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FE24C2FA640020465D /* IntradayDataViewController.swift */; };
+		3F30341D24C2FA640020465D /* FitContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033FF24C2FA640020465D /* FitContentViewController.swift */; };
+		3F30341E24C2FA640020465D /* MarkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340024C2FA640020465D /* MarkersViewController.swift */; };
+		3F30341F24C2FA640020465D /* PercentagePriceScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340124C2FA640020465D /* PercentagePriceScaleViewController.swift */; };
+		3F30342024C2FA640020465D /* InvertedPriceScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340224C2FA640020465D /* InvertedPriceScaleViewController.swift */; };
+		3F30342124C2FA640020465D /* PriceScaleAtLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340324C2FA640020465D /* PriceScaleAtLeftViewController.swift */; };
+		3F30342224C2FA640020465D /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340424C2FA640020465D /* BarChartViewController.swift */; };
+		3F30342324C2FA640020465D /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340624C2FA640020465D /* TooltipView.swift */; };
+		3F30342424C2FA640020465D /* CandlestickChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340724C2FA640020465D /* CandlestickChartViewController.swift */; };
+		3F30342524C2FA640020465D /* GoToRealtimeButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340824C2FA640020465D /* GoToRealtimeButtonViewController.swift */; };
+		3F30342624C2FA640020465D /* NoPriceScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340924C2FA640020465D /* NoPriceScaleViewController.swift */; };
+		3F30342724C2FA640020465D /* FloatingTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340A24C2FA640020465D /* FloatingTooltipViewController.swift */; };
+		3F30342824C2FA640020465D /* PriceLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30340B24C2FA640020465D /* PriceLineViewController.swift */; };
 		5C2C904B77FDEF1865AEEE97 /* Pods_TradingChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C1B52DBA8188B02035A658 /* Pods_TradingChartView.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +54,35 @@
 		3F3033E224C2F8300020465D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3033E524C2F8300020465D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3033E724C2F8300020465D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3033EE24C2FA640020465D /* ThreeLineLegendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeLineLegendViewController.swift; sourceTree = "<group>"; };
+		3F3033EF24C2FA640020465D /* CustomFontFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFontFamilyViewController.swift; sourceTree = "<group>"; };
+		3F3033F024C2FA640020465D /* VolumeStudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeStudyViewController.swift; sourceTree = "<group>"; };
+		3F3033F124C2FA640020465D /* RealtimeEmulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeEmulationViewController.swift; sourceTree = "<group>"; };
+		3F3033F224C2FA640020465D /* CustomLocaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLocaleViewController.swift; sourceTree = "<group>"; };
+		3F3033F324C2FA640020465D /* LogarithmicPriceScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogarithmicPriceScaleViewController.swift; sourceTree = "<group>"; };
+		3F3033F424C2FA640020465D /* AddAndRemovePriceLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAndRemovePriceLineViewController.swift; sourceTree = "<group>"; };
+		3F3033F524C2FA640020465D /* MagnifierTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnifierTooltipViewController.swift; sourceTree = "<group>"; };
+		3F3033F624C2FA640020465D /* LegendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
+		3F3033F724C2FA640020465D /* CustomPriceFormatterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPriceFormatterViewController.swift; sourceTree = "<group>"; };
+		3F3033F824C2FA640020465D /* NoTimeScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoTimeScaleViewController.swift; sourceTree = "<group>"; };
+		3F3033F924C2FA640020465D /* TrackingTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingTooltipViewController.swift; sourceTree = "<group>"; };
+		3F3033FA24C2FA640020465D /* RangeSwitcherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSwitcherViewController.swift; sourceTree = "<group>"; };
+		3F3033FB24C2FA640020465D /* CustomThemesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomThemesViewController.swift; sourceTree = "<group>"; };
+		3F3033FC24C2FA640020465D /* CustomWatermarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWatermarkViewController.swift; sourceTree = "<group>"; };
+		3F3033FD24C2FA640020465D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3F3033FE24C2FA640020465D /* IntradayDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntradayDataViewController.swift; sourceTree = "<group>"; };
+		3F3033FF24C2FA640020465D /* FitContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitContentViewController.swift; sourceTree = "<group>"; };
+		3F30340024C2FA640020465D /* MarkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkersViewController.swift; sourceTree = "<group>"; };
+		3F30340124C2FA640020465D /* PercentagePriceScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentagePriceScaleViewController.swift; sourceTree = "<group>"; };
+		3F30340224C2FA640020465D /* InvertedPriceScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertedPriceScaleViewController.swift; sourceTree = "<group>"; };
+		3F30340324C2FA640020465D /* PriceScaleAtLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceScaleAtLeftViewController.swift; sourceTree = "<group>"; };
+		3F30340424C2FA640020465D /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		3F30340624C2FA640020465D /* TooltipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		3F30340724C2FA640020465D /* CandlestickChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandlestickChartViewController.swift; sourceTree = "<group>"; };
+		3F30340824C2FA640020465D /* GoToRealtimeButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToRealtimeButtonViewController.swift; sourceTree = "<group>"; };
+		3F30340924C2FA640020465D /* NoPriceScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPriceScaleViewController.swift; sourceTree = "<group>"; };
+		3F30340A24C2FA640020465D /* FloatingTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingTooltipViewController.swift; sourceTree = "<group>"; };
+		3F30340B24C2FA640020465D /* PriceLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceLineViewController.swift; sourceTree = "<group>"; };
 		C1C1B52DBA8188B02035A658 /* Pods_TradingChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC08604D97CA516B055E153 /* Pods-TradingChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingChartView.release.xcconfig"; path = "Target Support Files/Pods-TradingChartView/Pods-TradingChartView.release.xcconfig"; sourceTree = "<group>"; };
 		FD59C43C892D936C6865EEDB /* Pods-TradingChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingChartView.debug.xcconfig"; path = "Target Support Files/Pods-TradingChartView/Pods-TradingChartView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +130,7 @@
 		3F3033D824C2F82E0020465D /* TradingChartView */ = {
 			isa = PBXGroup;
 			children = (
+				3F3033ED24C2FA640020465D /* Example */,
 				3F3033D924C2F82E0020465D /* AppDelegate.swift */,
 				3F3033DB24C2F82E0020465D /* SceneDelegate.swift */,
 				3F3033DD24C2F82E0020465D /* ViewController.swift */,
@@ -81,6 +140,50 @@
 				3F3033E724C2F8300020465D /* Info.plist */,
 			);
 			path = TradingChartView;
+			sourceTree = "<group>";
+		};
+		3F3033ED24C2FA640020465D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3F3033EE24C2FA640020465D /* ThreeLineLegendViewController.swift */,
+				3F3033EF24C2FA640020465D /* CustomFontFamilyViewController.swift */,
+				3F3033F024C2FA640020465D /* VolumeStudyViewController.swift */,
+				3F3033F124C2FA640020465D /* RealtimeEmulationViewController.swift */,
+				3F3033F224C2FA640020465D /* CustomLocaleViewController.swift */,
+				3F3033F324C2FA640020465D /* LogarithmicPriceScaleViewController.swift */,
+				3F3033F424C2FA640020465D /* AddAndRemovePriceLineViewController.swift */,
+				3F3033F524C2FA640020465D /* MagnifierTooltipViewController.swift */,
+				3F3033F624C2FA640020465D /* LegendViewController.swift */,
+				3F3033F724C2FA640020465D /* CustomPriceFormatterViewController.swift */,
+				3F3033F824C2FA640020465D /* NoTimeScaleViewController.swift */,
+				3F3033F924C2FA640020465D /* TrackingTooltipViewController.swift */,
+				3F3033FA24C2FA640020465D /* RangeSwitcherViewController.swift */,
+				3F3033FB24C2FA640020465D /* CustomThemesViewController.swift */,
+				3F3033FC24C2FA640020465D /* CustomWatermarkViewController.swift */,
+				3F3033FD24C2FA640020465D /* TableViewController.swift */,
+				3F3033FE24C2FA640020465D /* IntradayDataViewController.swift */,
+				3F3033FF24C2FA640020465D /* FitContentViewController.swift */,
+				3F30340024C2FA640020465D /* MarkersViewController.swift */,
+				3F30340124C2FA640020465D /* PercentagePriceScaleViewController.swift */,
+				3F30340224C2FA640020465D /* InvertedPriceScaleViewController.swift */,
+				3F30340324C2FA640020465D /* PriceScaleAtLeftViewController.swift */,
+				3F30340424C2FA640020465D /* BarChartViewController.swift */,
+				3F30340524C2FA640020465D /* Views */,
+				3F30340724C2FA640020465D /* CandlestickChartViewController.swift */,
+				3F30340824C2FA640020465D /* GoToRealtimeButtonViewController.swift */,
+				3F30340924C2FA640020465D /* NoPriceScaleViewController.swift */,
+				3F30340A24C2FA640020465D /* FloatingTooltipViewController.swift */,
+				3F30340B24C2FA640020465D /* PriceLineViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		3F30340524C2FA640020465D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F30340624C2FA640020465D /* TooltipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E2F848A9FE4AA7D1C6B5A522 /* Frameworks */ = {
@@ -206,9 +309,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F30340E24C2FA640020465D /* VolumeStudyViewController.swift in Sources */,
+				3F30342424C2FA640020465D /* CandlestickChartViewController.swift in Sources */,
+				3F30342624C2FA640020465D /* NoPriceScaleViewController.swift in Sources */,
+				3F30341124C2FA640020465D /* LogarithmicPriceScaleViewController.swift in Sources */,
+				3F30341F24C2FA640020465D /* PercentagePriceScaleViewController.swift in Sources */,
+				3F30342224C2FA640020465D /* BarChartViewController.swift in Sources */,
+				3F30340C24C2FA640020465D /* ThreeLineLegendViewController.swift in Sources */,
+				3F30341824C2FA640020465D /* RangeSwitcherViewController.swift in Sources */,
+				3F30341524C2FA640020465D /* CustomPriceFormatterViewController.swift in Sources */,
+				3F30341024C2FA640020465D /* CustomLocaleViewController.swift in Sources */,
+				3F30341D24C2FA640020465D /* FitContentViewController.swift in Sources */,
+				3F30341224C2FA640020465D /* AddAndRemovePriceLineViewController.swift in Sources */,
 				3F3033DE24C2F82E0020465D /* ViewController.swift in Sources */,
+				3F30341724C2FA640020465D /* TrackingTooltipViewController.swift in Sources */,
+				3F30340F24C2FA640020465D /* RealtimeEmulationViewController.swift in Sources */,
+				3F30341424C2FA640020465D /* LegendViewController.swift in Sources */,
+				3F30342724C2FA640020465D /* FloatingTooltipViewController.swift in Sources */,
+				3F30341924C2FA640020465D /* CustomThemesViewController.swift in Sources */,
+				3F30342824C2FA640020465D /* PriceLineViewController.swift in Sources */,
+				3F30341624C2FA640020465D /* NoTimeScaleViewController.swift in Sources */,
+				3F30341B24C2FA640020465D /* TableViewController.swift in Sources */,
 				3F3033DA24C2F82E0020465D /* AppDelegate.swift in Sources */,
+				3F30341E24C2FA640020465D /* MarkersViewController.swift in Sources */,
+				3F30341A24C2FA640020465D /* CustomWatermarkViewController.swift in Sources */,
+				3F30342124C2FA640020465D /* PriceScaleAtLeftViewController.swift in Sources */,
+				3F30341C24C2FA640020465D /* IntradayDataViewController.swift in Sources */,
+				3F30342024C2FA640020465D /* InvertedPriceScaleViewController.swift in Sources */,
+				3F30340D24C2FA640020465D /* CustomFontFamilyViewController.swift in Sources */,
 				3F3033DC24C2F82E0020465D /* SceneDelegate.swift in Sources */,
+				3F30341324C2FA640020465D /* MagnifierTooltipViewController.swift in Sources */,
+				3F30342324C2FA640020465D /* TooltipView.swift in Sources */,
+				3F30342524C2FA640020465D /* GoToRealtimeButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -338,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GBCJ9FE6T;
 				INFOPLIST_FILE = TradingChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GBCJ9FE6T;
 				INFOPLIST_FILE = TradingChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
