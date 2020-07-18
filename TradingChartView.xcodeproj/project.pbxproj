@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3033DA24C2F82E0020465D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033D924C2F82E0020465D /* AppDelegate.swift */; };
+		3F3033DC24C2F82E0020465D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033DB24C2F82E0020465D /* SceneDelegate.swift */; };
+		3F3033DE24C2F82E0020465D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3033DD24C2F82E0020465D /* ViewController.swift */; };
+		3F3033E124C2F82E0020465D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033DF24C2F82E0020465D /* Main.storyboard */; };
+		3F3033E324C2F8300020465D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033E224C2F8300020465D /* Assets.xcassets */; };
+		3F3033E624C2F8300020465D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3033E424C2F8300020465D /* LaunchScreen.storyboard */; };
+		5C2C904B77FDEF1865AEEE97 /* Pods_TradingChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C1B52DBA8188B02035A658 /* Pods_TradingChartView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F3033D624C2F82E0020465D /* TradingChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3033D924C2F82E0020465D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3033DB24C2F82E0020465D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F3033DD24C2F82E0020465D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3033E024C2F82E0020465D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3033E224C2F8300020465D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3033E524C2F8300020465D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3033E724C2F8300020465D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C1B52DBA8188B02035A658 /* Pods_TradingChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC08604D97CA516B055E153 /* Pods-TradingChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingChartView.release.xcconfig"; path = "Target Support Files/Pods-TradingChartView/Pods-TradingChartView.release.xcconfig"; sourceTree = "<group>"; };
+		FD59C43C892D936C6865EEDB /* Pods-TradingChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingChartView.debug.xcconfig"; path = "Target Support Files/Pods-TradingChartView/Pods-TradingChartView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3033D324C2F82E0020465D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2C904B77FDEF1865AEEE97 /* Pods_TradingChartView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3358C6B348ACE1C816D56E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD59C43C892D936C6865EEDB /* Pods-TradingChartView.debug.xcconfig */,
+				DEC08604D97CA516B055E153 /* Pods-TradingChartView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F3033CD24C2F82E0020465D = {
+			isa = PBXGroup;
+			children = (
+				3F3033D824C2F82E0020465D /* TradingChartView */,
+				3F3033D724C2F82E0020465D /* Products */,
+				3358C6B348ACE1C816D56E62 /* Pods */,
+				E2F848A9FE4AA7D1C6B5A522 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3033D724C2F82E0020465D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3033D624C2F82E0020465D /* TradingChartView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3033D824C2F82E0020465D /* TradingChartView */ = {
+			isa = PBXGroup;
+			children = (
+				3F3033D924C2F82E0020465D /* AppDelegate.swift */,
+				3F3033DB24C2F82E0020465D /* SceneDelegate.swift */,
+				3F3033DD24C2F82E0020465D /* ViewController.swift */,
+				3F3033DF24C2F82E0020465D /* Main.storyboard */,
+				3F3033E224C2F8300020465D /* Assets.xcassets */,
+				3F3033E424C2F8300020465D /* LaunchScreen.storyboard */,
+				3F3033E724C2F8300020465D /* Info.plist */,
+			);
+			path = TradingChartView;
+			sourceTree = "<group>";
+		};
+		E2F848A9FE4AA7D1C6B5A522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C1B52DBA8188B02035A658 /* Pods_TradingChartView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3033D524C2F82E0020465D /* TradingChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3033EA24C2F8300020465D /* Build configuration list for PBXNativeTarget "TradingChartView" */;
+			buildPhases = (
+				5D533037B9A536198968510E /* [CP] Check Pods Manifest.lock */,
+				3F3033D224C2F82E0020465D /* Sources */,
+				3F3033D324C2F82E0020465D /* Frameworks */,
+				3F3033D424C2F82E0020465D /* Resources */,
+				20321ED1136AA5C608216BA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingChartView;
+			productName = TradingChartView;
+			productReference = 3F3033D624C2F82E0020465D /* TradingChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3033CE24C2F82E0020465D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = KeyFun;
+				TargetAttributes = {
+					3F3033D524C2F82E0020465D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3F3033D124C2F82E0020465D /* Build configuration list for PBXProject "TradingChartView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3033CD24C2F82E0020465D;
+			productRefGroup = 3F3033D724C2F82E0020465D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3033D524C2F82E0020465D /* TradingChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3033D424C2F82E0020465D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3033E624C2F8300020465D /* LaunchScreen.storyboard in Resources */,
+				3F3033E324C2F8300020465D /* Assets.xcassets in Resources */,
+				3F3033E124C2F82E0020465D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20321ED1136AA5C608216BA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingChartView/Pods-TradingChartView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingChartView/Pods-TradingChartView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradingChartView/Pods-TradingChartView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D533037B9A536198968510E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradingChartView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3033D224C2F82E0020465D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3033DE24C2F82E0020465D /* ViewController.swift in Sources */,
+				3F3033DA24C2F82E0020465D /* AppDelegate.swift in Sources */,
+				3F3033DC24C2F82E0020465D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F3033DF24C2F82E0020465D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3033E024C2F82E0020465D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3033E424C2F8300020465D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3033E524C2F8300020465D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3033E824C2F8300020465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3033E924C2F8300020465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3033EB24C2F8300020465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD59C43C892D936C6865EEDB /* Pods-TradingChartView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GBCJ9FE6T;
+				INFOPLIST_FILE = TradingChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyfun.TradingChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3033EC24C2F8300020465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC08604D97CA516B055E153 /* Pods-TradingChartView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GBCJ9FE6T;
+				INFOPLIST_FILE = TradingChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyfun.TradingChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3033D124C2F82E0020465D /* Build configuration list for PBXProject "TradingChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3033E824C2F8300020465D /* Debug */,
+				3F3033E924C2F8300020465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3033EA24C2F8300020465D /* Build configuration list for PBXNativeTarget "TradingChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3033EB24C2F8300020465D /* Debug */,
+				3F3033EC24C2F8300020465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3033CE24C2F82E0020465D /* Project object */;
+}
